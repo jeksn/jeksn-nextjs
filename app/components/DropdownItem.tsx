@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function DropdownItem({ href, title }: { href: string, title: string }) {
     return (

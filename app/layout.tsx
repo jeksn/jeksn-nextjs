@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import Header from "@/app/global/Header";
 import Footer from "@/app/global/Footer";
 
-// If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',

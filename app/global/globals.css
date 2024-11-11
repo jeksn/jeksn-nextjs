@@ -22,3 +22,18 @@ body {
 header, .dropdown {
     background-color: rgba(22, 22, 23, 0.95);
 }
+.markdown-format ul {
+  @apply space-y-1;
+}
+.markdown-format li {
+  @apply list-inside  list-disc;
+}
+.markdown-format h2 {
+  @apply text-2xl mt-12 mb-4;
+}
+.markdown-format h3 {
+  @apply text-xl mt-8 mb-4;
+}
+.markdown-format h4 {
+  @apply text-lg mt-6;
+}
