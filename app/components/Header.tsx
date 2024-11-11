@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import DropdownItem from './DropdownItem';
+import DropdownItem from '@/app/components/DropdownItem';
 
 export default function Header() {
     // toggle the dropdown menu
