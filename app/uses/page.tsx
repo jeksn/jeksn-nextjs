@@ -1,15 +1,14 @@
 import { Metadata } from "next"
 import Hero from "../components/Hero"
 import ListItem from "../components/ListItem"
+import appsData from '@/public/data/apps-services.json'
+import gearData from '@/public/data/gear.json'
+import headphoneData from '@/public/data/headphones.json'
 
 export const metadata: Metadata = {
     title: 'Uses',
     description: 'A list of tools I use',
 }
-
-const appsData = require('@/public/data/apps-services.json')
-const gearData = require('@/public/data/gear.json')
-const headphoneData = require('@/public/data/headphones.json')
 
 export default function Uses() {
     return (

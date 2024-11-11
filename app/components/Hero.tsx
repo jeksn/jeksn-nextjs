@@ -1,4 +1,4 @@
-export default function Hero({ heading, subHeading }: { heading: string, subHeading: any }) {
+export default function Hero({ heading, subHeading }: { heading: string, subHeading: React.ReactNode }) {
     return (
     <section className="w-screen bg-gradient-to-b from-zinc-900">
         <div className="flex justify-center max-w-screen-lg px-4 py-20 mx-auto text-center text-white">

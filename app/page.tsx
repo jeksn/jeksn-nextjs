@@ -25,7 +25,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col">
 							<p className="text-base md:text-2xl">
-							   I'm a design-minded developer working at 
+                I&apos;m a design-minded developer working at 
 							  <Link
                   href="https://wtmg.se"
                   className="underline transition-all underline-offset-4 hover:underline-offset-8 ml-2">
@@ -34,7 +34,7 @@ export default function Home() {
 							  <br />
 							  This is my small home on the web.
 							  <br />
-							  Don't hesitate to get in touch.
+							  DonI&apos;mt hesitate to get in touch.
 							</p>
 							<div className="mt-16">
 						   <h2 className="text-lg md:text-xl">Where to find me:</h2>
