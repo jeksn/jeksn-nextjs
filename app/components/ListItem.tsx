@@ -1,3 +1,7 @@
+export interface ListItemData {
+    name: string;
+    description: string;
+}
 
 export default function ListItem({ data, title }: { data: ListItemData[], title: string }) {
     return (
@@ -10,8 +14,4 @@ export default function ListItem({ data, title }: { data: ListItemData[], title:
         </ul>
         </div>
     )
-}
-export interface ListItemData {
-    name: string;
-    description: string;
 }

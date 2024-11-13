@@ -11,11 +11,14 @@ export const metadata: Metadata = {
 export default function Now() {
     return (
         <>
-        <Hero heading="Now" subHeading={<>
-                This is my <a href="https://sive.rs/now2" className="underline">/now </a>page.
-                <br />
-                These are some of the things I&apos;m focusing on right now.
-            </>} />
+        <Hero heading="Now" subHeading={
+            <>
+            This is my <a href="https://sive.rs/now2" className="underline">/now </a>page.
+            <br />
+            These are some of the things I&apos;m focusing on right now.
+            </>
+        } 
+        />
         <div className="mt-6 max-w-screen-lg mx-auto my-20 min-h-[40vh]">
             <ListItem data={nowData} title="" />
         </div>

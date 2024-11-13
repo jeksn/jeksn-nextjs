@@ -34,7 +34,7 @@ export default function Home() {
 							  <br />
 							  This is my small home on the web.
 							  <br />
-							  DonI&apos;mt hesitate to get in touch.
+							  Don&apos;t hesitate to get in touch.
 							</p>
 							<div className="mt-16">
 						   <h2 className="text-lg md:text-xl">Where to find me:</h2>
