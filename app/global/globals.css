@@ -28,6 +28,9 @@ header, .dropdown {
 .markdown-format li {
   @apply list-inside list-disc;
 }
+.markdown-format h1 {
+  @apply text-3xl mt-12 mb-4;
+}
 .markdown-format h2 {
   @apply text-2xl mt-12 mb-4;
 }
@@ -36,4 +39,7 @@ header, .dropdown {
 }
 .markdown-format h4 {
   @apply text-lg mt-6;
+}
+.markdown-format p {
+  @apply text-base mt-6;
 }
