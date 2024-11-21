@@ -4,6 +4,8 @@ import ListItem from "../components/ListItem"
 import appsData from '@/public/data/apps-services.json'
 import gearData from '@/public/data/gear.json'
 import headphoneData from '@/public/data/headphones.json'
+import otherData from '@/public/data/other.json'
+
 
 export const metadata: Metadata = {
     title: 'Uses',
@@ -19,6 +21,7 @@ export default function Uses() {
                 <ListItem data={appsData} title="Apps & Services" />            
                 <ListItem data={gearData} title="Gear" />
                 <ListItem data={headphoneData} title="Headphones" />
+                <ListItem data={otherData} title="Other" />
             </div>
         </div>
         </>

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Firefox",
+        "name": "Chrome and Firefox",
         "description": "(replaced Arc)"
     },
     {
@@ -8,8 +8,8 @@
         "description": "(and sometimes NeoVim)"
     },
     {
-        "name": "Wezterm",
-        "description": "(replaced Warp)"
+        "name": "Warp",
+        "description": "(but might switch to Wezterm again)"
     },
     {
         "name": "Obsidian",
@@ -32,7 +32,7 @@
         "description": ""
     },
     {
-        "name": "Qobuz",
-        "description": "(replaced Apple Music)"
+        "name": "Apple Music",
+        "description": ""
     }
 ]
