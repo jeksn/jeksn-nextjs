@@ -15,7 +15,7 @@ export default function Home() {
 						<div className="flex flex-col text-base gap-y-1 md:text-xl">
 						  <h1 className="my-3 text-6xl font-light">Hello! 👋</h1>
               <p>
-                I'm a design-minded developer in Stockholm <span className="text-2xl">🇸🇪</span>
+                I&apos;m a design-minded developer in Stockholm <span className="text-2xl">🇸🇪</span>
               </p>
               <p>
                 Currently working at <Link href="https://wtmg.se" target="_blank" className="underline transition-all underline-offset-4 hover:underline-offset-8">WTMG.</Link>
