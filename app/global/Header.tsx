@@ -2,8 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import DropdownItem from '@/app/components/DropdownItem';
+import NavItem from '@/app/components/NavItem';
+
 
 export default function Header() {
     // toggle the dropdown menu
@@ -20,8 +22,14 @@ export default function Header() {
         <header className="sticky top-0 w-full">
             <div className="flex items-center justify-between max-w-screen-lg px-4 py-4 mx-auto">
                 <div>
-                <Link href="/" className="px-4 py-2 text-sm text-black duration-300 ease-in-out bg-white rounded-sm hover:bg-[#151515] hover:text-white">
-                    jeksn.me
+                <Link href="/" className="duration-300 ease-in-out">
+                    <Image 
+                    src="/blue.png" 
+                    className="transition-all duration-200 rounded-full size-12 hover:scale-110" 
+                    width={80} 
+                    height={80} 
+                    alt="blue profile picture" 
+                    loading="lazy"/>
                 </Link>
                 </div>
                 <div className="flex items-center justify-center">
@@ -40,11 +48,11 @@ export default function Header() {
             </div>
             <div className={`absolute ${toggle ? 'block' : 'hidden'} px-8 w-full left-0 top-[4rem] dropdown`}>
                 <ul className="max-w-screen-lg px-4 pt-4 pb-8 mx-auto text-white">
-                    <DropdownItem href="/uses" title="Uses" />
-                    <DropdownItem href="/reading-list" title="Reading list" />
-                    <DropdownItem href="/now" title="Now" />
-                    <DropdownItem href="/small-projects" title="Small projects" />
-                    <DropdownItem href="https://github.com/jeksn/jeksn.me" title="Repo" />
+                    <NavItem href="/uses" title="Uses" />
+                    <NavItem href="/reading-list" title="Reading list" />
+                    <NavItem href="/now" title="Now" />
+                    {/* <NavItem href="/small-projects" title="Small projects" /> */}
+                    <NavItem href="https://github.com/jeksn/jeksn-next" title="Repo" />
                 </ul>
             </div>
         </header>
