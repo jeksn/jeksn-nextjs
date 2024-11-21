@@ -3,6 +3,7 @@ import "@/app/global/globals.css";
 import { Inter } from 'next/font/google'
 import Header from "@/app/global/Header";
 import Footer from "@/app/global/Footer";
+import { ViewTransitions } from 'next-view-transitions'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -20,6 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <ViewTransitions>
     <html lang="en" className={inter.className}>
       <body className="bg-black text-white">
         <main>
@@ -29,5 +31,6 @@ export default function RootLayout({
         </main>
         </body>
     </html>
+    </ViewTransitions>
   )
 }

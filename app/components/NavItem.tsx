@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from 'next-view-transitions'
 
 export default function NavItem({ href, title }: { href: string, title: string }) {
     return (

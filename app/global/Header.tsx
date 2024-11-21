@@ -25,7 +25,7 @@ export default function Header() {
                 <Link href="/" className="duration-300 ease-in-out">
                     <Image 
                     src="/blue.png" 
-                    className="transition-all duration-200 rounded-full size-12 hover:scale-110" 
+                    className="transition-all duration-200 rounded-full size-10 hover:scale-110" 
                     width={80} 
                     height={80} 
                     alt="blue profile picture" 
