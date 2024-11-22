@@ -1,5 +1,11 @@
 import Hero from "../components/Hero";
 import BlogPostItem from "../components/BlogPostItem";
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: 'Blog',
+    description: 'My Blog',
+}
 
 export default function Blog() {
     

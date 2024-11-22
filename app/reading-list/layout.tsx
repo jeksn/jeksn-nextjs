@@ -1,4 +1,10 @@
 import Hero from "../components/Hero"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: 'Reading List',
+    description: 'My reading list',
+}
 
 export default function MdxLayout({ children }: { children: React.ReactNode }) {
     return (
