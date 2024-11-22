@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link";
-import ContactLink from '@/app/components/ContactLink';
+// import ContactLink from '@/app/components/ContactLink';
 
 export const metadata: Metadata = {
     title: 'jeksn.me',

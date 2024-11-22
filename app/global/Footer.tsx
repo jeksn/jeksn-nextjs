@@ -8,7 +8,7 @@ export default function Footer() {
     return (
     <div className="w-full mt-12 pt-12 pb-6 bg-gray-600/20 px-8">
         <div className="max-w-screen-lg py-6 mx-auto">
-            <div className="grid grid-cols-3 justify-end gap-x-32">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-32 gap-y-12">
                 <div>
                     <Link href="/" className="duration-300 ease-in-out">
                         <Image 
@@ -41,7 +41,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="flex justify-center mt-24">
+            <div className="flex justify-start md:justify-center mt-24">
                 <span className="text-sm text-white/80">Copyright © { currentYear } Johan Eriksson / jeksn</span>
             </div>
         </div>
