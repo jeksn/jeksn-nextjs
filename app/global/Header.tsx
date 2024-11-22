@@ -73,9 +73,9 @@ export default function Header() {
                     <NavItem href="/blog" title="Blog" />
                     <NavItem href="/reading-list" title="Reading list" />
                     <NavItem href="/uses" title="Uses" />
-                    {/* <NavItem href="/now" title="Now" /> */}
-                    {/* <NavItem href="/small-projects" title="Small projects" /> */}
+                    <NavItem href="/small-projects" title="Small projects" />
                     <NavItem href="https://github.com/jeksn/jeksn-nextjs" title="Repo" />
+                    {/* <NavItem href="/now" title="Now" /> */}
                 </ul>
             </div>
         </header>
