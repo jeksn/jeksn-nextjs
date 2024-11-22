@@ -18,6 +18,28 @@ export default function Header() {
         setToggle(false);
     }, [pathname]);
 
+    useEffect(() => {
+        const handleEsc = (event: KeyboardEvent) => {
+            if (event.key === 'Escape') {
+                setToggle(false);
+            }
+        };
+        document.addEventListener('keydown', handleEsc);
+
+        return () => document.removeEventListener('keydown', handleEsc);
+    }, []);
+
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (toggle && !(event.target instanceof Element && event.target.closest('.dropdown'))) {
+                setToggle(false);
+            }
+        };
+        document.addEventListener('click', handleClickOutside);
+
+        return () => document.removeEventListener('click', handleClickOutside);
+    }, [toggle]);
+
     return (
         <header className="sticky top-0 w-full">
             <div className="flex items-center justify-between max-w-screen-lg px-8 py-4 mx-auto">
