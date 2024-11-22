@@ -20,7 +20,7 @@ export default function Header() {
 
     return (
         <header className="sticky top-0 w-full">
-            <div className="flex items-center justify-between max-w-screen-lg px-4 py-4 mx-auto">
+            <div className="flex items-center justify-between max-w-screen-lg px-8 py-4 mx-auto">
                 <div>
                 <Link href="/" className="duration-300 ease-in-out">
                     <Image 
@@ -51,7 +51,7 @@ export default function Header() {
                     <NavItem href="/blog" title="Blog" />
                     <NavItem href="/reading-list" title="Reading list" />
                     <NavItem href="/uses" title="Uses" />
-                    <NavItem href="/now" title="Now" />
+                    {/* <NavItem href="/now" title="Now" /> */}
                     {/* <NavItem href="/small-projects" title="Small projects" /> */}
                     <NavItem href="https://github.com/jeksn/jeksn-nextjs" title="Repo" />
                 </ul>
