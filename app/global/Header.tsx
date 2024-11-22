@@ -48,7 +48,7 @@ export default function Header() {
             </div>
             <div className={`absolute ${toggle ? 'block' : 'hidden'} px-8 w-full left-0 top-[4rem] dropdown`}>
                 <ul className="max-w-screen-lg px-4 pt-4 pb-8 mx-auto text-white">
-                    {/* <NavItem href="/blog" title="Blog" /> */}
+                    <NavItem href="/blog" title="Blog" />
                     <NavItem href="/reading-list" title="Reading list" />
                     <NavItem href="/uses" title="Uses" />
                     <NavItem href="/now" title="Now" />
