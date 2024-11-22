@@ -24,11 +24,11 @@ export default function RootLayout({
     <ViewTransitions>
     <html lang="en" className={inter.className}>
       <body className="bg-black text-white">
-        <main>
           <Header />
-          {children}
+          <main className="min-h-[70vh]">
+            {children}
+          </main>
           <Footer />
-        </main>
         </body>
     </html>
     </ViewTransitions>
