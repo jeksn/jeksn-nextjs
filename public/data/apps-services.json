@@ -20,6 +20,10 @@
         "description": ""
     },
     {
+        "name": "OVPN",
+        "description": "(would like to use ProtonVPN but it has issues, while OVPN works great)"
+    },
+    {
         "name": "Feedbin",
         "description": "(for RSS)"
     },
