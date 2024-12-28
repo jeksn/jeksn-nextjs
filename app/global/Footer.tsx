@@ -23,10 +23,10 @@ export default function Footer() {
                 <div className="flex flex-col space-y-2">
                     <h2 className="text-lg">Links</h2>
                     <ul className="flex flex-col space-y-2">
-                        <Link href="/blog" className="transition-all text-sm hover:underline hover:underline-offset-4">Blog</Link>
-                        <Link href="/reading-list" className="transition-all text-sm hover:underline hover:underline-offset-4">Reading List</Link>
                         <Link href="/uses" className="transition-all text-sm hover:underline hover:underline-offset-4">Uses</Link>
+                        <Link href="/reading-list" className="transition-all text-sm hover:underline hover:underline-offset-4">Reading List</Link>
                         <Link href="/small-projects" className="transition-all text-sm hover:underline hover:underline-offset-4">Small Projects</Link>
+                        {/* <Link href="/blog" className="transition-all text-sm hover:underline hover:underline-offset-4">Blog</Link> */}
                         {/* <Link href="/now" className="transition-all text-sm hover:underline hover:underline-offset-4">Now</Link> */}
                         <Link href="https://github.com/jeksn/jeksn-nextjs" className="transition-all text-sm hover:underline hover:underline-offset-4">Repo</Link>
                     </ul>
