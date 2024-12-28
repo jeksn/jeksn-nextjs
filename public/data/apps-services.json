@@ -1,15 +1,15 @@
 [
     {
-        "name": "Chrome and Firefox",
-        "description": "(replaced Arc)"
+        "name": "Chrome",
+        "description": "(replaced Arc and Firefox)"
     },
     {
         "name": "VS Code",
-        "description": "(and sometimes NeoVim)"
+        "description": "(and sometimes NeoVim for quick fixes)"
     },
     {
         "name": "Ghostty",
-        "description": "(trying it out as a replacement for Warp and WezTerm"
+        "description": "(trying it out as a replacement for Warp and WezTerm)"
     },
     {
         "name": "Obsidian",
