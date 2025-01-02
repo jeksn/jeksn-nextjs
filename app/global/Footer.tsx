@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
 
-    const currentYear = new Date().getFullYear();
+    // const currentYear = new Date().getFullYear();
 
     return (
     <div className="w-full mt-12 pt-12 pb-6 bg-gray-600/20 px-8">
@@ -43,7 +43,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="flex justify-start md:justify-center mt-24">
-                <span className="text-sm text-white/80">Copyright © { currentYear } Johan Eriksson / jeksn</span>
+                <span className="text-sm text-white/80">Copyright © 2025 Johan Eriksson / jeksn</span>
             </div>
         </div>
     </div>
