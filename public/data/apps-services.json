@@ -1,42 +1,42 @@
 [
     {
         "name": "Chrome",
-        "description": "(replaced Arc and Firefox)"
+        "description": "Would like to use Arc or Firefox, but Chrome works best for both personal and work. Might move over to Thorium to get away from Google."
     },
     {
         "name": "VS Code",
-        "description": "(and sometimes NeoVim for quick fixes)"
+        "description": "I will sometimes NeoVim for quick fixes"
     },
     {
         "name": "Ghostty",
-        "description": "(trying it out as a replacement for Warp and WezTerm)"
+        "description": "Trying it out as a replacement for Warp and WezTerm, which are both great terminal emulators"
     },
     {
         "name": "Obsidian",
-        "description": "(for all my notes)"
+        "description": "Use it for all my notes"
     },
     {
         "name": "Proton Mail, Pass, and Drive",
-        "description": ""
+        "description": "Went with Proton when I degoogled and have been happy with it for a few years now"
     },
     {
         "name": "OVPN",
-        "description": "(would like to use ProtonVPN but it has issues, while OVPN works great)"
+        "description": "Using it as a work VPN, but also for personal use"
     },
     {
         "name": "Feedbin",
-        "description": "(for RSS)"
+        "description": "The best way I've found to keep up with RSS feeds. It's also where I keep my YouTube subscriptions"
     },
     {
         "name": "Airshow",
-        "description": "(for podcasts)"
+        "description": "It's my prefered podcast app, mostly because it's build into Feedbin"
     },
     {
         "name": "Raycast",
-        "description": ""
+        "description": "I can't imagine using a Mac without it"
     },
     {
         "name": "Apple Music",
-        "description": "(but using Cider on MacOS)"
+        "description": "The MacOS app is terrible, so I'm using Cider instead on my MacBook"
     }
 ]

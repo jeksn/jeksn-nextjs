@@ -17,7 +17,7 @@ export default function Uses() {
         <>
         <Hero heading="Uses" subHeading="A list of tools I use" />
         <div className="mt-6 max-w-screen-lg mx-auto">
-            <div className="py-12">
+            <div className="py-12 space-y-10">
                 <ListItem data={appsData} title="Apps & Services" />            
                 <ListItem data={gearData} title="Gear" />
                 <ListItem data={headphoneData} title="Headphones" />
