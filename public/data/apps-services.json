@@ -5,38 +5,38 @@
     },
     {
         "name": "VS Code",
-        "description": "I will sometimes NeoVim for quick fixes"
+        "description": "I will sometimes NeoVim for quick fixes."
     },
     {
         "name": "Ghostty",
-        "description": "Trying it out as a replacement for Warp and WezTerm, which are both great terminal emulators"
+        "description": "Trying it out as a replacement for Warp and WezTerm, which are both great terminal emulators."
     },
     {
         "name": "Obsidian",
-        "description": "Use it for all my notes"
+        "description": "Use it for all my notes."
     },
     {
         "name": "Proton Mail, Pass, and Drive",
-        "description": "Went with Proton when I degoogled and have been happy with it for a few years now"
+        "description": "Went with Proton when I degoogled and have been happy with it for a few years now."
     },
     {
         "name": "OVPN",
-        "description": "Using it as a work VPN, but also for personal use"
+        "description": "Using it as a work VPN, but also for personal use."
     },
     {
         "name": "Feedbin",
-        "description": "The best way I've found to keep up with RSS feeds. It's also where I keep my YouTube subscriptions"
+        "description": "The best way I've found to keep up with RSS feeds. It's also where I keep my YouTube subscriptions."
     },
     {
         "name": "Airshow",
-        "description": "It's my prefered podcast app, mostly because it's build into Feedbin"
+        "description": "It's my prefered podcast app, mostly because it's build into Feedbin."
     },
     {
         "name": "Raycast",
-        "description": "I can't imagine using a Mac without it"
+        "description": "I can't imagine using a Mac without it."
     },
     {
         "name": "Apple Music",
-        "description": "The MacOS app is terrible, so I'm using Cider instead on my MacBook"
+        "description": "The MacOS app is terrible, so I'm using Cider instead on my MacBook."
     }
 ]

@@ -1,18 +1,14 @@
 [
     {
         "name": "Miyoo Mini +",
-        "description": "A great little gaming handheld for short sessions"
-    },
-    {
-        "name": "Lamy Safari Rollerball",
-        "description": "Currently trying out this pen. The design is fantastic but not sure about the ink yet"
+        "description": "A great little gaming handheld for short sessions."
     },
     {
         "name": "Pilot Frixion Zone",
-        "description": "Great everyday pen"
+        "description": "Great everyday pen."
     },
     {
-        "name": "Lamy Paper notebook",
-        "description": "Bought a 3-pack of notebooks that I use as a work log"
+        "name": "Standard notebooks",
+        "description": "Used as a scratchpad and work log. Currenly using one from Lamy."
     }
 ]
